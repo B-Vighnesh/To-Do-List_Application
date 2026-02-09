@@ -10,11 +10,9 @@ export default function App() {
       <main className="main-container">
         <Outlet />
       </main>
-      <AppRoutes />
 
       <Footer />
     </div>
     
   );
-  return <AppRoutes/>;
 }
