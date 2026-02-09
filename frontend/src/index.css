@@ -12,6 +12,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
 
 a {
   font-weight: 500;
@@ -24,8 +30,9 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* display: flex; */
+  /* place-items: center; */
+  width: 1300px;
   min-width: 320px;
   min-height: 100vh;
 }
